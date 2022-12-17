@@ -92,6 +92,24 @@ h1{
     padding-right: 1.2em;
 
 }
+footer{
+    width: 100%;
+    background-color: #241892;
+    background-size: cover;
+    color: #f5f0ed;
+    margin-top: 2em;
+}
+footer p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+    padding-left: 20px;
+    margin: 5%;
+    display: inline-block;
+    height: 15px;
+}
+
 
 @media screen {
     h1, #calculadora{
