@@ -111,13 +111,30 @@ footer p{
 }
 
 
-@media (min-width: 305px) and (max-width:705px){
+@media (min-width: 305px) and (max-width:905px){
     h1, #calculadora{
-        text-align: center;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 15vh;
+        margin-right: 15vh;
         max-width: 100vh;
         max-height: min-content;
     } 
+
+    footer{
+        width: 100vh;
+        background-color: #241892;
+        background-size: cover;
+        color: #f5f0ed;
+        margin-top: 2em;
+        border-radius: 5%;
+    }
+    footer p{
+        font-size: 16px;
+        font-weight: 400;
+        text-align: justify;
+        font-family: 'Roboto Slab', serif;
+        padding-left: 20px;
+        margin: 5%;
+        display: inline-block;
+        height: 15px;
+    }
 }
